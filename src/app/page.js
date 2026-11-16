@@ -95,7 +95,7 @@ export default async function Home() {
       <section className="bg-white py-20">
         <div className="mx-auto max-w-6xl px-5">
           <Reveal>
-            <SectionHeading title="Available colour's" text="Choose from our laminate and wood finishes. Tap a colour to see its details and ask if a product is available in it." />
+            <SectionHeading title="Available colours" text="Choose from our laminate and wood finishes. Tap a colour to see its details and ask if a product is available in it." />
           </Reveal>
           <Reveal delay={0.1}>
             <FinishPicker productsByFinish={productsByFinish} />
@@ -158,7 +158,7 @@ export default async function Home() {
       {/* Call to action */}
       <section className="bg-cerulean px-5 py-16 text-center text-white">
         <Reveal>
-          <h2 className="font-display text-3xl sm:text-4xl">Have a room in mind? Tell us the size.</h2>
+          <h2 className="font-display text-3xl sm:text-4xl">Have a room in mind? Share your space and requirements.</h2>
           <p className="mx-auto mt-3 max-w-xl text-white/90">Send us your space details and we will call you back with ideas.</p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link href="/custom-design" className="rounded-full bg-lime px-7 py-3 font-semibold text-black transition hover:bg-white">Start a custom design</Link>

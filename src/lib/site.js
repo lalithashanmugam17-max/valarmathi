@@ -24,12 +24,12 @@ export const mapsEmbed =
   '&output=embed'
 
 export const features = [
-  { icon: Gem, title: 'Premium Materials', text: 'We use only the finest woods, metals, and fabrics, carefully selected to ensure timeless elegance, exceptional durability, and lasting quality in every piece.' },
-  { icon: Ruler, title: 'Custom Design Service', text: 'Every space is unique. Our bespoke design service ensures your furniture is too, thoughtfully tailored to fit your style, needs, and dimensions.' },
-  { icon: Leaf, title: 'Sustainability Practices', text: 'We craft beautiful furniture using eco-friendly materials and ethical processes, designed to minimize impact and honor our commitment to the planet.' },
-  { icon: Hammer, title: 'Handmade Craftsmanship', text: 'Each piece is meticulously handcrafted by skilled artisans, blending time-honored techniques with contemporary design for unmatched character and quality.' },
-  { icon: Award, title: 'Award-Winning Designs', text: 'Our innovative creations have earned industry acclaim and are celebrated by homeowners and interior designers for their style and functionality.' },
-  { icon: ShieldCheck, title: 'Child-Safe Rounded Edges', text: 'Our advanced edge moulding technology transforms sharp furniture edges into smooth, rounded finishes, reducing the risk of accidental bumps and injuries while creating a safer environment for children and families.' },
+  { icon: Gem, title: 'Quality Material and Finishes', text: 'We use only the finest woods, metals, and fabrics, carefully selected to ensure timeless elegance, exceptional durability, and lasting quality in every piece.' },
+  { icon: Ruler, title: 'Made to your Measurements', text: 'Every space is unique. Our bespoke design service ensures your furniture is too, thoughtfully tailored to fit your style, needs, and dimensions.' },
+  { icon: Leaf, title: 'Built for everyday use', text: 'We craft beautiful furniture using eco-friendly materials and ethical processes, designed to minimize impact and honor our commitment to the planet.' },
+  { icon: Hammer, title: 'Skilled workshop Craftsmanship', text: 'Each piece is meticulously handcrafted by skilled artisans, blending time-honored techniques with contemporary design for unmatched character and quality.' },
+  { icon: Award, title: 'Precision Manufacturing', text: 'Our innovative creations have earned industry acclaim and are celebrated by homeowners and interior designers for their style and functionality.' },
+  { icon: ShieldCheck, title: 'Moulded edge Technology', text: 'Our advanced edge moulding technology transforms sharp furniture edges into smooth, rounded finishes, reducing the risk of accidental bumps and injuries while creating a safer environment for children and families.' },
 ]
 
 // Hero slider content configured with badges for the workshop, moulded edges, and Salem.
@@ -47,8 +47,9 @@ export const heroSlides = [
     image: '/images/hero/hero-video-poster.jpg',
     video: '/videos/hero2.mp4',
     duration: 15000,
+    badge: 'Moulded Edges',
     title: 'Every edge finished to perfection',
-    text: 'From cutting and edge banding to precision drilling, every piece is crafted by our skilled team.',
+    text: 'Every detail crafted with precision. Every edge finished with elegance.',
     href: '/products', cta: 'Explore products',
   },
   {
