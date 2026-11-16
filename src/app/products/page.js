@@ -66,7 +66,7 @@ export default async function Products({ searchParams }) {
             <div className="max-w-sm">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cerulean">Colours</p>
               <h2 className="mt-1 font-display text-2xl text-ink sm:text-3xl">Choose your finish</h2>
-              <p className="mt-1 text-sm">Laminate and wood colours to choose from. Available in your preferred colour and finish.</p>
+              <p className="mt-1 text-sm">Laminate and wood colours to choose from available in your preferred colour and finish.</p>
             </div>
             <div className="grid grid-cols-4 gap-3">
               {Object.entries(FINISH_DETAILS).slice(0, 8).map(([slug, f]) => (
